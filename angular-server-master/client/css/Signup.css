@@ -1,0 +1,196 @@
+
+/* ------------	FROMATTING OF BODY --------------*/
+body{
+    text-align: center;
+	font-family: "Gotham-Book" , Sans-serif;
+}
+
+/* ---------------ENDS HERE ------------------ */
+
+/* ---------------------- FOR FORMATTING OF FACEBOOK LOGO ---------------------*/ 
+
+.facebook_login_box{
+	position: relative;
+	width: 26.5%;
+	height: 10px;
+	background-color: #3B5998;
+	text-align: left;
+	color: white;
+	font-weight: 900;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left:  40px;
+	font-family:  "Gotham-Book" , Sans-serif;
+	border-radius: 4px;
+	
+}
+
+/*	------------------- ENDS HERE ------------------- */
+
+/* ----------------		TEXT FORMATIING OF FACEBOOK BOX 	------------------*/ 
+
+
+.facebook_logo{
+	width: 28px; 
+	height: 35px;
+	position: middle;
+	vertical-align: -14px;
+	
+}
+
+.facebook_class{
+	color: white;
+	font-family: "Gotham-Book" , Sans-serif ;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+/* -------------------- ENDS HERE -----------------*/
+
+/* ----------- 	ANCHOR TAGS CONFIGURATIONS FOR FACEBOOK BOX  -------------*/
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a:active{ 
+	text-decoration: none;
+}
+
+/* -------------	ENDS HERE	------------ */
+
+/* -------------------- 	FOR THE INPUT FEILDS OF FORM	---------------- */
+
+input{
+	width: 30%;
+	border: none;
+	border-bottom: 1px solid #777777;
+	-webkit-transition: width 0.15s easi-in-out;
+	transition: width 0.15s ease-in-out;
+}	
+
+/* ------------- 	FORMATTING FOR WHEN USE FOCUSSES ON INPUT FEILD ----------------*/
+
+
+input:focus{
+	width: 25%;
+	border: none;
+	border-bottom: 2px solid #FF0000;
+	outline: none;
+}
+
+input,
+input::-webkit-input-label{
+	font-size: 18px;
+	line-height: 4;
+	font-family: "Verdana" , Sans-serif;
+	color: #999999;
+}
+
+/* ------------------	ENDS HERE --------------------*/
+
+/* 	-------------	FORMATTING FOR BUTTON	--------------*/
+
+.button_submit{
+	background-color: #E52068;
+	width: 210px;
+	height: 55px;
+	padding: 10px 10px;
+	border-radius: 5px;
+	color: white;
+	font-family: "Gotham-Book" , Sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	display: inline-block;
+}
+
+.button_submit:hover{
+	box-shadow: 3px 2px 10px grey;
+}
+
+/* --------------- ENDS HERE ----------------*/
+
+
+.Pakit_Logo{
+	width: 100px;
+}
+
+.Create_An_Account_Link{
+	font-family: "Gotham-Book" , Sans-serif;
+	color: #595959;
+}
+
+.SignUP_Link{
+	color: #595959;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.SignUP_Link:hover{
+	color: #2392D1;
+}	
+
+/* ------------ FORMATTING OF LABEL ---------------*/
+
+
+.Name{
+	position: relative;
+	color: #999999;
+	font-family: "Verdana" , Sans-serif;
+	font-size: 18px;
+	left: 70px;
+	line-height: 27px;
+}
+
+.Email{
+	position: relative;
+	color: #999999;
+	font-family: "Verdana" , Sans-serif;
+	font-size: 18px;
+	left: 60px;
+	line-height: 27px;
+}
+
+.Password{ 
+	position: relative;
+	color: #999999;
+	font-family: "Verdana" , Sans-serif;
+	font-size: 18px;
+	left: 90px;
+	line-height: 20px;
+}
+/* -------------------------- FORMATTING OF LABEL ENDS HERE---------------- */
+
+/* -------------------------- ALIGNING OF INPUT FEILDS START HERE --------------*/
+
+.para_Name{
+	margin-left: -32px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.para_Email{
+	margin-left: -25px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.para_Password{
+	margin-left: -50px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+ /* ------------------------- FORMATTING OF INPUT FEILDS ENDS HERE --------------------*/
