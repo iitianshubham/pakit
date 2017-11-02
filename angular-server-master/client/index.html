@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="We connect travellers and senders to make delivery cheaper and faster">
     <meta name="keywords" content="luggage space,share,deliver">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <title>Pakit</title>
 	<style>
 		[ng-click] {
 		cursor: pointer;
 	}
-	body,h1,h2,h3,h4,h5,p,a,label,button {font-family: 'Gotham-Book'}
+	body,h1,h2,h3,h4,h5,p,a,label,button {font-family: 'Quicksand', sans-serif, 'Gotham-Book';}
 	</style>
 	<base href="/" >
 </head>
@@ -35,25 +36,37 @@
      }(document, 'script', 'facebook-jssdk'));
   </script>
 
-	<div class="container-fluid">
+	<div class="container-fluid" style="padding: 0;">
 		<div ui-view></div>
 	</div>
 	<!-- // <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script> -->
 
-	<!-- <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="css/bootstrap-social.css" rel="stylesheet"> -->
+	<link href="css/bootstrap-social.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-
-	<!-- CSS COMES HERE. -->
-	<link rel="stylesheet" type="text/css" href="css/login.css">
-	<link rel="stylesheet" type="text/css" href="css/signup.css">
-	
-	<!-- CSS ends here -->
+	<!-- CSS link goes here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/new_css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/new_css/signup.css">
+	<link rel="stylesheet" type="text/css" href="css/new_css/connected_users.css">
+	<link rel="stylesheet" type="text/css" href="css/new_css/new_pakit.css">
+	<link rel="stylesheet" href="css/new_css/pay.css" />
+	<link rel="stylesheet" type="text/css" href="css/new_css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="css/new_css/Homepage.css">
+	<link rel="stylesheet" type="text/css" href="css/new_css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/new_css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/new_css/user_details.css">
+    <link rel="stylesheet" type="text/css" href="css/new_css/UserProfile.css">
+    <link rel="stylesheet" type="text/css" href="css/new_css/DetailsForm.css">
+	<!-- CSS link ends here -->
 	<link rel="stylesheet" href="bower_components/angular-google-places-autocomplete/src/autocomplete.css">
 
+
 	<!-- Required dependencies -->
+	<!-- Script goes here -->
+    
+	<!-- Script ends here -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATsUzOeo6yAwC12ffDAsQF0YEMLYU4t6I&libraries=placeses,visualization,drawing,geometry,places"></script>
 
 	<script type="text/javascript" src="./bower_components/lodash/lodash.min.js"></script>
@@ -108,7 +121,14 @@
 
 
 <!-- <script type="text/javascript" src="./dist/app.min.js"></script> -->
-
+<script>
+        document.getElementById("detailsform_changepic").onclick = function(){
+            document.getElementById("detailsform_hiddenfile").click();
+        }
+        function file(){
+            document.getElementById("detailsform_hiddenfile").click();
+        }
+</script>
 <script type="text/javascript" src="./main.js"></script>
 <script src="controllers/navController.js"></script>
 <script src="controllers/opt1Controller.js"></script>
@@ -122,6 +142,29 @@
 <script src="controllers/account.js"></script>
 <script src="controllers/account_form.js"></script>
 <script src="controllers/checkout.js"></script>
+<script>
+            $(document).ready(function(){
+            $(".owl-carousel").owlCarousel(
+                {
+                    dots:false,
+                    autoplay:true,
+                    smartSpeed:300,
+                    loop:true,
+                    margin:13,
+                    responsive:{
+                        0:{
+                            items:2
+                        },
+                        320:{
+                            items:3
+                        },
+                        1000:{
+                            items:4
+                        }
+                    }
+                });
+            });
+        </script>
 
 </body>
 

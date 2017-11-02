@@ -11,8 +11,6 @@ app.controller('navController', function($state,$scope,APIService,UserService, $
     $state.go('navbar.home');      //by default load the main page 
   }
 
-
-
   $scope.isActive = function (viewLocation) { 
    // //console.log($state.includes(viewLocation))
     return $state.includes(viewLocation);
