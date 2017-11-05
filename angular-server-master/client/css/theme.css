@@ -1,1 +1,48 @@
-@font-face{font-family:'Gotham book';src:url("../../fonts/gotham-book.woff") format("woff"),url("../../fonts/gotham-book.ttf") format("truetype")}body{font-family:'Gotham book','Arial'}.hollow-btn{background-color:transparent;border-radius:5px;border:2px solid #8CC63E;color:#8CC63E;padding:15px;padding-top:5px;padding-bottom:5px}.hollow-btn:hover{background-color:rgba(139,196,59,0.1)}.solid-btn{background-color:#8CC63E;border-radius:5px;color:#fff;box-shadow:0 0 2px 0px #ccc}.solid-btn:hover{background-color:#7EAF35;box-shadow:0 0 5px 0px #999}.solid-btn.red-btn{background-color:#E74C3C}.solid-btn.red-btn:hover{background-color:#C0392B}.block-btn{width:100%}.text-theme{color:#8CC63E !important}.text-white{color:#fff !important}.theme-link{color:#8CC63E}.theme-link:hover{color:#7EAF35}.bg-theme{background-color:#8CC63E !important}.bg-red{background-color:#E74C3C !important}.muted-1{color:#333 !important}.muted-2{color:#555 !important}.muted-3{color:#888 !important}.uppercase{text-transform:uppercase}h6{font-size:1.2em}span.big{font-size:1.1em}.flex-container{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap}.flex-column{flex-direction:column}.flex-container.space-around{justify-content:space-around}.flex-container.space-between{justify-content:space-between}.flex-container.center-1{justify-content:center}.flex-container.center-2{align-items:center}.eq-margin{margin:auto}@media screen and (min-width: 993px){#toast-container{top:auto !important;right:auto !important;bottom:10%;left:5%}}.shaded{background-color:lavender;outline:1px solid #000}
+/* Font settings */
+
+@font-face {
+    font-family: 'Gotham book';
+    src: url('../fonts/gotham-book.woff') format('woff'), url('../fonts/gotham-book.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Gotham book','Arial';
+}
+
+/* 
+    Colors
+        APP THEME
+            #8CC63E
+            hsl(85,54%,50%)
+        APP THEME - DARK
+            #7EAF35
+            hsl(84,53%,45%)
+        GREEN THEME
+            #5ABD87
+            hsl(147, 43%, 55%)
+        GREEN THEME - DARK
+            #48B67A
+            hsl(147, 43%, 50%)
+        EMERALD
+            #2ECC71
+            rgb(46,204,113)
+            hsl(145,63%,49%)
+        NEPHRITIS
+            #27AE60
+            rgb(39,174,96)
+            hsl(145,63%,41%)
+        TURQUOISE
+            #1ABC9C
+            rgb(26,188,156)
+            hsl(168,75%,41%)
+        GREEN SEA
+            #16A085
+            rgb(22,160,133)
+            hsl(168,75%,35%)
+        RED - LIGHT
+            #E74C3C
+            hsl(5,78%,57%)
+        RED - DARK
+            #C0392B
+            hsl(5,63%,46%)
+*/
