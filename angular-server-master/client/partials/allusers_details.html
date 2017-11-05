@@ -2,11 +2,13 @@
     <div class = "row">
 <!--    ========================================    LEFT BOX STARTS     ===================================     -->                            
         <div class = "col-md-4 col-xs-12 user_details_left_box">
-<!--    ========================================    CARD STARTS     ===================================     -->                             
-            <div class = "user_details_card1" ng-repeat="user in usersToShow">
+<!--    ========================================    CARD STARTS     ===================================     -->            
+            <div class = "user_details_card1">                 
+            <!-- <div class = "user_details_card1" ng-repeat="user in usersToShow"> -->
                 <div class = "user_details_card_card">
                     <div class = "user_details_card_image">
-                        <img src = {{user.image_url}} alt = "customer image">
+                        <!-- <img src = {{user.image_url}} alt = "customer image"> -->
+                        <img src = image/photo.jpg alt = "customer image">
                     </div>
                 <a href="" ng-click="showUserDetail(user)">
                     <div class = "user_details_card_name_and_notificatons">

@@ -3,18 +3,19 @@
 <!--    =======================================  LEFT BOX STARTS   ====================================    -->                             
     	<div class = "col-md-4 connected_users_left_box">
 <!--    =======================================  CARD STARTS   ====================================    -->                                 
-    		<div class = "connected_users_card1" ng-repeat="cuser in connected_users">
+    		<!-- <div class = "connected_users_card1" ng-repeat="cuser in connected_users"> -->
+            <div class = "connected_users_card1">
                 <div class = "connected_users_card_card">
                     <div class = "connected_users_card_image">
                         <img src = "https://lh3.googleusercontent.com/-OhOrkpybvhU/VbGeDhUAM_I/AAAAAAAAQ68/hOCeFTX_FbY/s576-Ic42/Rajma%252520Curry%252520Recipe%25252008.JPG" alt = "customer image">
                     </div>
                     <div class = "connected_users_card_name_and_notificatons">
                         <div class = "connected_users_card_name">
-                            {{cuser.name}}
+                            {{cuser.name}}Kuldeep bhaiya
                         </div>
                         <div class = "connected_users_card_notifications">
                             <div class="connected_users_dropdown connected_users_dots">
-                                <img src = "SVGs/3 dots.svg" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                <img src = "image/3 dots.svg" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a href="#">********</a></li>
                                     <li><a href="#">########</a></li>
@@ -26,7 +27,7 @@
                     <div class = "connected_users_card_information">
                         <div class = "connected_users_card_flight_details">
                             <div class = "connected_users_card_flight_logo">
-                                <img src = "SVGs/flight.svg" alt = "flight logo">
+                                <img src = "image/flight.svg" alt = "flight logo">
                             </div>
                             <div class = "connected_users_card_date">
                                 {{cuser.entry.date | date : "MMM dd, yyyy"}}
@@ -34,7 +35,7 @@
                         </div>
                         <div class  = "connected_users_card_baggage_details">
                             <div class = "connected_users_card_suitcase">
-                                <img src = "SVGs/suitcase-04.svg" alt = "checkin baggage">
+                                <img src = "image/suitcase-04.svg" alt = "checkin baggage">
                             </div>
                             <div class = "connected_users_card_weight">
                                 {{cuser.entry.weight}} kg 
