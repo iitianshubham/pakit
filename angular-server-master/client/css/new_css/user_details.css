@@ -233,6 +233,81 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 }
 /*  ===============================================  INTERIOR UPPER BOX ENDS   ===========================================     */
 
+/*	===============================================		DROPDOWN STARTS HERE 	=====================================	*/
+	
+/*.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}*/
+
+.user_details_card_dots{
+	float: right;
+	margin-right: 10px;
+	width: 10px;
+}
+.user_details_card_dots img{
+	width: 4px;
+}
+
+.user_details_card_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.user_details_card_dots .user_details_card_dropdown-content {
+    display: block;
+}
+.user_details_card_dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.user_details_card_dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+.user_details_card_dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/*	===============================================		DROPDOWN ENDS HERE 		=====================================	*/
+
 
 
 /*  ==================================================  INTERIOR LOWER BOX STARTS    =========================================   */
@@ -364,21 +439,29 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 .user_details_card_invite{
 	color: #1fd2f2;
 	float: right;
+/*	=========	CHANGES DONE BY AAKASH FOR BACKGROUND OF INVITE 	=======	*/	
+	width: 100px;
+	height: 22px;
 }
 .user_details_card_invite:hover{
     background-color: #e2e2e2;
-    padding: 4px 20px;
     transition: all 0.3s ease-in-out;
     border-radius: 4px;
 }
+/*	======================	CHANGES DONE BY AAKASH TILL HERE 	A===========================================	*/
 .user_details_card1{
 	padding: 10px;
+}
+.user_details_dropdown{
+	
 }
 .user_details_card_notifications .user_details_dots img{
     width: 40px;
     height: 20px;
     background-color: transparent;
     border: none;
+    border-color: none;
+    outline: none;
     padding-top: 2px;
     padding-bottom: 5px;
 }

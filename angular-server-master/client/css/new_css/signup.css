@@ -33,6 +33,9 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     border-radius: 4px;
     padding-top: 10px;  
 }
+.fb_login_row{
+    margin-top: 30px;
+}
 .signup_fb_login p img{
     width: 25px;
     vertical-align: middle;
