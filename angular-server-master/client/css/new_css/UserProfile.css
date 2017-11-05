@@ -280,3 +280,14 @@
 .account_section{
     margin-top: -9%;
 }
+.userprofile_editprofile{
+    float: right;    
+}
+.userprofile_editprofile p a{
+    color: blue;
+    font-size: 16px;
+    font-weight: 700;
+}
+.userprofile_editprofile p a{
+    padding: 0 2px 5px 10px;
+}
