@@ -54,33 +54,55 @@
 
         <div class="collapse navbar-collapse" id="connected_users_myNavbar">                        
             <span class="dropdown">
-                <span class="dropbtn connected_users_myNavbar_icons">
+                <span class="dropbtn connected_users_myNavbar_icons connected_users_myNavbar_request" onclick = "navbar_dropdowns_on_click('request_id')">
                     <img class="connected_users_myNavbar_images" src="image/request.svg"/>
                 </span>
-                <div class="dropdown-content dropdown-menu-right">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                <div class="dropdown-content dropdown-menu-right" id = "request_id">
+                  <a ui-sref="">My Account</a>
+                  <a ui-sref="">Past Trips</a>
+                  <a ui-sref="">Contact US</a>
+                  <a ui-sref="">FAQs</a>
+                  <a ui-sref="">Terms of Use</a>
+                  <a ui-sref="">Logout</a>
                 </div>
             </span>
+
+    <!--       ===============================  CHANGES DONE BY AAKASH  ==================================  -->
+           <!--  <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src = "image/request.svg"/>
+                    </button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">HTML</a></li>
+                          <li><a href="#">CSS</a></li>
+                          <li><a href="#">JavaScript</a></li>
+                        </ul>
+              </div> -->
+        <!--       ===============================  CHANGES DONE BY AAKASH  ==================================  -->    
+
             <span class="dropdown">
-                <span class="dropbtn connected_users_myNavbar_icons">
+                <span class="dropbtn connected_users_myNavbar_icons connected_users_myNavbar_notification" onclick = "navbar_dropdowns_on_click('notification_id')">
                     <img class="connected_users_myNavbar_images" src="image/notification.svg"/>
                 </span>
-                <div class="dropdown-content dropdown-menu-right">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                <div class="dropdown-content dropdown-menu-right" id = "notification_id">
+                  <a ui-sref="">My Account</a>
+                  <a ui-sref="">Past Trips</a>
+                  <a ui-sref=""">Contact US</a>
+                  <a ui-sref="">FAQs</a>
+                  <a ui-sref="">Terms of Use</a>
+                  <a ui-sref="">Logout</a>
                 </div>
             </span>
             <span class="dropdown">
-                <span class="dropbtn connected_users_myNavbar_icons">
+                <span class="dropbtn connected_users_myNavbar_icons connected_users_myNavbar_account" onclick = "navbar_dropdowns_on_click('account_id')">
                     <img class="connected_users_myNavbar_images" src="image/account.svg"/>
                 </span>
-                <div class="dropdown-content dropdown-menu-right">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                <div class="dropdown-content dropdown-menu-right" id = "account_id">
+                  <a ui-sref="navbar.account.account_profile">My Account</a>
+                  <a ui-sref="navbar.account.past_trips">Past Trips</a>
+                  <a ui-sref="navbar.account.contact">Contact US</a>
+                  <a ui-sref="navbar.account.faq">FAQs</a>
+                  <a ui-sref="navbar.account.terms">Terms of Use</a>
+                  <a ui-sref="landing">Logout</a>
                 </div>
             </span>
         </div>                            
