@@ -128,11 +128,8 @@ body{
     background-color: white;
 }
 
-/* ==============================CHANGES BY AAKASH =========================*/
 .detailsform_detailitem input{
     float: right;
-    border: none;
-    box-shadow: none;
     border-bottom: 2px solid lightgray;
     border-top-color: transparent;
     border-right-color: transparent;
@@ -140,15 +137,8 @@ body{
     width: 55%;
     margin-right: 2%;
     background-color: transparent;
+
 }
-
-.detailsform_detailitem input:focus{
-        border-top: 1px solid transparent;
-        border-left: 1px solid transparent;
-        border-right: 1px solid transparent;
-    }
-/* =========================================================================*/
-
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 .detailsform_detailitem{
     margin-bottom: 4%;
