@@ -52,9 +52,11 @@
             <span class="icon-bar"></span>                        
         </button>
 
+<!--       ===============================  CHANGES DONE BY AAKASH  ==================================  -->
+
         <div class="collapse navbar-collapse" id="connected_users_myNavbar">                        
             <span class="dropdown">
-                <span class="dropbtn connected_users_myNavbar_icons connected_users_myNavbar_request" onclick = "navbar_dropdowns_on_click('request_id')">
+                <span class="dropbtn connected_users_myNavbar_icons connected_users_myNavbar_request" onclick = "navbar_request_icon_dropdowns_on_click()">
                     <img class="connected_users_myNavbar_images" src="image/request.svg"/>
                 </span>
                 <div class="dropdown-content dropdown-menu-right" id = "request_id">
@@ -67,20 +69,9 @@
                 </div>
             </span>
 
-    <!--       ===============================  CHANGES DONE BY AAKASH  ==================================  -->
-           <!--  <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src = "image/request.svg"/>
-                    </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">HTML</a></li>
-                          <li><a href="#">CSS</a></li>
-                          <li><a href="#">JavaScript</a></li>
-                        </ul>
-              </div> -->
-        <!--       ===============================  CHANGES DONE BY AAKASH  ==================================  -->    
-
+    
             <span class="dropdown">
-                <span class="dropbtn connected_users_myNavbar_icons connected_users_myNavbar_notification" onclick = "navbar_dropdowns_on_click('notification_id')">
+                <span class="dropbtn connected_users_myNavbar_icons connected_users_myNavbar_notification" onclick = "navbar_notification_icon_dropdowns_on_click()">
                     <img class="connected_users_myNavbar_images" src="image/notification.svg"/>
                 </span>
                 <div class="dropdown-content dropdown-menu-right" id = "notification_id">
@@ -92,8 +83,10 @@
                   <a ui-sref="">Logout</a>
                 </div>
             </span>
+    
+
             <span class="dropdown">
-                <span class="dropbtn connected_users_myNavbar_icons connected_users_myNavbar_account" onclick = "navbar_dropdowns_on_click('account_id')">
+                <span class="dropbtn connected_users_myNavbar_icons connected_users_myNavbar_account" onclick = "navbar_account_icon_dropdowns_on_click()">
                     <img class="connected_users_myNavbar_images" src="image/account.svg"/>
                 </span>
                 <div class="dropdown-content dropdown-menu-right" id = "account_id">
@@ -105,7 +98,9 @@
                   <a ui-sref="landing">Logout</a>
                 </div>
             </span>
-        </div>                            
+        </div>
+<!--       ===============================  CHANGES DONE BY AAKASH  BY TILL HERE 		==================================  -->
+
     </div>
 </nav>
 <!--    =======================================  NAVBAR ENDS   ====================================    -->                 

@@ -151,15 +151,15 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 
 /*==========================================    IF REGISTERED STARTS HERE    ====================================*/
-.signup_form .signup_if_registered{
+.signup_if_registered{
     padding: 5px 0;
     text-align: center;
     font-family: Verdana , sans-serif;
 }
-.signup_form .signup_if_registered .signup_signin_link{
+.signup_if_registered .signup_signin_link{
     color: inherit;
 }
-.signup_form .signup_if_registered .signup_signin_link:hover{
+.signup_if_registered .signup_signin_link:hover{
     text-decoration: none;
     color: #23527c;
 }

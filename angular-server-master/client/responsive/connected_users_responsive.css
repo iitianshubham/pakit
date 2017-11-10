@@ -124,3 +124,87 @@
         padding: 3.5px 10px;
     }
 }
+
+
+
+
+/*      ===========================================     CHANGES DONE BY AAKASH FOR MOBLIE VIEW     =================================       */
+
+    
+@media only screen and (max-width: 425px){
+    .connected_users_main_row{
+        display: none;
+    }
+    .connected_users_exterior_box{
+        margin-top: 120px;
+    }
+    .connected_users_interior_upper_box{
+        position: fixed;
+        top: 50px;
+        left: 0;
+        z-index: 100;
+        height: 72px;
+    }
+    .connected_users_interior_upper_box .connected_users_flight_logo , .connected_users_dots , .connected_users_collapse_link{
+        display: none;
+    }
+    .connected_users_baggage_weight{
+        float: left;
+        margin-left: 10px;
+        padding-right: 0;
+        font-size: 12px;
+    }
+    .connected_users_date{
+        padding-left: 10px;
+    }
+    .connected_users_from_to_profile{
+        float: right;
+        margin-right: 20px;
+        font-size: 10px;
+        font-family: century gothic , sans-serif;
+    }
+    .connected_users_from_to_profile .connected_users_flight_direction img{
+        width: 80px;
+    }
+    .connected_users_connected_and_all_users{
+        visibility: hidden;
+    }
+    .connected_users_connected_and_all_users_2{
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .connected_users_connected , .connected_users_all_users{
+        clear: both;
+        padding: 3px 35px;
+    }
+    .connected_users_connected_and_all_users_2 a:before{
+        bottom: -5px;   
+    }
+}
+
+@media only screen and (max-width: 409px){
+    .connected_users_connected_and_all_users{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .connected_users_connected_and_all_users{
+        display: none;
+    }
+    .connected_users_from_to_profile .connected_users_city{
+        font-size: 12px;
+    }
+    .connected_users_from_to_profile{
+        margin-left: 0;
+    }
+    .connected_users_from_to_profile .connected_users_flight_direction img{
+        width: 60px;
+    }
+    .connected_users_connected_and_all_users_2 a:before{
+        bottom: -10px;   
+    }
+}
+/*      ==============================================      CHANGES DONE BY AAKASH TILL HERE     =======================================================       */

@@ -10,7 +10,46 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 }
 /*  =================================================   BODY ENDS   ==================================================   */
 
+/*  ===========================   CHANGES DONE BY AAKAHS FOR SIGNUP SIGNIN TABS   =========================*/
 
+/*  =============================================   SIGNUP/SIGNIN TABS STARTS HERE   ============================  */
+.login_signup_signin_tabs {
+    display: none;
+}
+.login_signin_tab , .login_signup_tab {
+    text-align: center;
+    padding-top: 20px;
+}
+.login_signup_signin_tabs .login_signup_signin_tabs_a {
+    position: relative;
+    text-decoration: none;
+    color:  darkgrey;
+}
+.login_signup_signin_tabs span:hover .login_signup_signin_tabs_a{
+    color: #000;
+}
+.login_signup_signin_tabs span:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -18px;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.login_signup_signin_tabs span:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*  =============================================   SIGNUP/SIGNIN TABS ENDS HERE    ===========================*/
+
+/*  ===========================   CHANGES DONE BY AAKAHS TILL HERE   =========================*/
 
 /*  =================================================   PAKIT LOGO STARTS    ==================================================   */
 .login_pakit_logo{
@@ -108,15 +147,15 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 
 /*  =================================================   IF NOT REGISTERED STARTS    ==================================================   */
-.login_email_and_password .login_if_not_registered{
+.login_if_not_registered{
     padding: 5px 0;
     text-align: center;
     font-family: Verdana , sans-serif;
 }
-.login_email_and_password .login_if_not_registered .login_create_an_account_link{
+.login_if_not_registered .login_create_an_account_link{
     color: inherit;
 }
-.login_email_and_password .login_if_not_registered .login_create_an_account_link:hover{
+.login_if_not_registered .login_create_an_account_link:hover{
     text-decoration: none;
     color: #23527c;
 }

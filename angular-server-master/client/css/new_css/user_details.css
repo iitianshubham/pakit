@@ -440,8 +440,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	color: #1fd2f2;
 	float: right;
 /*	=========	CHANGES DONE BY AAKASH FOR BACKGROUND OF INVITE 	=======	*/	
-	width: 100px;
-	height: 22px;
+	padding: 5px 15px;
 }
 .user_details_card_invite:hover{
     background-color: #e2e2e2;

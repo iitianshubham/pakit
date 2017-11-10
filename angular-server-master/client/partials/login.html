@@ -1,11 +1,28 @@
 <div class = "container">            
+
+
+<!--    *****************************   CHANGES DONE BY AAKASH FOR SIGNIN SIGNUP TABS   *****************************   -->
+
+<!--	*****************************	SIGNUP SIGNIN TABS STARTS HERE 		****************************	-->
+	<div class = "login_signup_signin_tabs">	
+		<div class = "row">
+			<span class = "col-md-6 col-sm-6 col-xs-6 login_signin_tab">	<a ui-sref="login"  class = "login_signup_signin_tabs_a">SIGNIN</a> 	</span>
+			<span class = "col-md-6 col-sm-6 col-xs-6 login_signup_tab">	<a  ui-sref="signup" class = "login_signup_signin_tabs_a">SIGNUP</a> 	</span>
+		</div>
+		<hr>
+	</div>
+<!--	*****************************	SIGNUP SIGNIN TABS ENDS HERE 		************************ 	-->
+
+<!--    *****************************   CHANGES DONE BY AAKASH TILL HERE   *****************************   -->
+
+
     <!--    ******************************* PAKIT LOGO ***********************    -->
         <div class = "login_pakit_logo"><img src = "image/logo.png" class = "login_pakit"></div>
 <!--    ******************************* PAKIT LOGO ENDS ***********************    -->
 
 <!--    ******************************* FACEBOOK LOGIN BOX STARTS HERE ***********************    -->
     <div class = "row fb_login_row">
-        <div class = "col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-offset-3 col-xs-6 login_fb_login" ng-click="fbLogin()">
+        <div class = "col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10 login_fb_login" ng-click="fbLogin()">
              <a href = "#">
                 <p>                          
                     <span class = "login_fb_logo"><img src = "image/fb_blue.png"></span>
@@ -20,7 +37,7 @@
     
 <!--    ******************************* FORM STARTS HERE ***********************    -->
     <div class = "row">
-        <div class = "col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 login_inputs">
+        <div class = "col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10 login_inputs">
             <form class = "login_email_and_password" ng-submit="submit(form)" novalidate>
                 <div class = "login_email_input">
                     <label id = "email_label" class = "login_label_feild"> Email </label>
@@ -39,10 +56,9 @@
                     <button class = "login_login_button" ng-disabled="form1.$invalid">Login</button>
                 </p>
 <!--    ******************************* LOGIN BUTTON ENDS HERE ***********************    -->                            
-            
-                <p class = "login_if_not_registered">Not registered? <a ui-sref="signup" class = "login_create_an_account_link">Create an account</a></p>
             </form>   
         </div>
     </div>    
+    <p class = "login_if_not_registered">Not registered? <a ui-sref="signup" class = "login_create_an_account_link">Create an account</a></p>
 <!--    ******************************* FORM ENDS HERE ***********************    -->     
 </div>

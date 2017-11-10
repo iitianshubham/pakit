@@ -59,10 +59,13 @@
     <link rel="stylesheet" type="text/css" href="css/new_css/user_details.css">
     <link rel="stylesheet" type="text/css" href="css/new_css/UserProfile.css">
     <link rel="stylesheet" type="text/css" href="css/new_css/DetailsForm.css">
-    <link rel="stylesheet" type="text/css" href="responsive/connected_users_responsive">
-    <link rel="stylesheet" type="text/css" href="responsive/new_pakit_responsive">
-    <link rel="stylesheet" type="text/css" href="responsive/pay_responsive">
-    <link rel="stylesheet" type="text/css" href="responsive/user_details_responsive">
+    		<!--  in href of CSS, .css was not there so added .css BY AAKASH 	-->
+    <link rel="stylesheet" type="text/css" href="responsive/connected_users_responsive.css">
+    <link rel="stylesheet" type="text/css" href="responsive/new_pakit_responsive.css">
+    <link rel="stylesheet" type="text/css" href="responsive/pay_responsive.css">
+    <link rel="stylesheet" type="text/css" href="responsive/user_details_responsive.css">
+    <link rel="stylesheet" type="text/css" href="responsive/login_responsive.css">
+			<!--  CHANGES DONE BY AAKASH TILL HERE 	-->
 	<!-- CSS link ends here -->
 	<link rel="stylesheet" href="bower_components/angular-google-places-autocomplete/src/autocomplete.css">
 
@@ -131,22 +134,51 @@
         function file(){
             document.getElementById("detailsform_hiddenfile").click();
         }
-   /*	========================	DROPDOWN ON CLICKING IN NAVBAR	=====================	*/     
-//         function navbar_dropdowns_on_click(id) {
-//  		   var a = document.getElementById("request_id");
-//  		   var b = document.getElementById("notification_id");
-//  		   var c = document.getElementById("account_id");
-//  		   var x = document.getElementById(id);
-//     a.className = a.className.replace(" w3-show", "");
-//     b.className = b.className.replace(" w3-show", "");
-//     c.className = c.className.replace(" w3-show", "");
-//     if (x.className.indexOf("w3-show") == -1) {  
-//         x.className += " w3-show";
-//     } else { 
-//         x.className = x.className.replace(" w3-show", "");
-//     }
-// }
-/*	========================================================================================	*/
+   /*	========================	CHANGES DONE BY AAKASH FOR DROPDOWN ON CLICKING IN NAVBAR	=====================	*/     
+
+		function navbar_request_icon_dropdowns_on_click(){
+			var x = document.getElementById('request_id');
+			var y = document.getElementById('notification_id');
+			var z = document.getElementById('account_id');
+			   y.style.display = "none";
+			   z.style.display = "none";
+			if (x.style.display === "none") {
+     		   x.style.display = "block";
+    		} else {
+        		x.style.display = "none";
+    		}
+
+		}
+		function navbar_notification_icon_dropdowns_on_click(){
+			var x = document.getElementById('notification_id');
+			var y = document.getElementById('request_id');
+			var z = document.getElementById('account_id');
+			   y.style.display = "none";
+			   z.style.display = "none";
+			if (x.style.display === "none") {
+     		   x.style.display = "block";
+    		} else {
+        		x.style.display = "none";
+    		}
+
+		}
+		function navbar_account_icon_dropdowns_on_click(){
+			var x = document.getElementById('account_id');
+			var y = document.getElementById('notification_id');
+			var z = document.getElementById('request_id');
+			   y.style.display = "none";
+			   z.style.display = "none";
+			if (x.style.display === "none") {
+     		   x.style.display = "block";
+    		} else {
+        		x.style.display = "none";
+    		}
+
+		}
+
+
+
+/*	================================		CHANGES DONE BY AAKASH TILL HERE    ===========================	*/
 </script>
 <script type="text/javascript" src="./main.js"></script>
 <script src="controllers/navController.js"></script>

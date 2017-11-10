@@ -35,6 +35,14 @@
             <span class = "connected_users_weight"> {{currCard.weight}}5kg </span>
             <span> {{currCard.mode}} </span>
          </span>
+
+<!--    ==============================    CHANGES BY AAKASH FOR CONNECTED AND ALL USERS ===========================   -->         
+          <div class = "connected_users_connected_and_all_users_2">
+            <div class = "connected_users_connected" ng-class="{ active: isActive('navbar.card_navbar.connected_users') }"><a href = "#" class = "connected_users_connected_and_all_users_a" ng-click="changeViews('navbar.card_navbar.connected_users')">Connected</a></div>
+            <div class = "connected_users_all_users" ng-class="{ active: isActive('navbar.card_navbar.allusers_grid') || isActive('navbar.card_navbar.allusers_details')}"><a href = "#"  class = "connected_users_connected_and_all_users_a" ng-click="changeViews('navbar.card_navbar.allusers_details')">All Users</a></div>
+         </div>
+<!--    ========================================    CHANGES BY AAKASH TILL HERE  =================================   -->         
+
         </div>  
         <div class = "row">
             <div class = "col-md-3 col-sm-4 col-xs-4 connected_users_precise_location">

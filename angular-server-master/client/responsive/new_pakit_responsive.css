@@ -2,8 +2,8 @@
     .new_pakit_form .new_pakit_input{
         width: 40%;
     }
-    .new_pakit_form .new_pakit_input[type=submit]{
-        width: 34%;
+    .new_pakit_form .new_pakit_button{
+        width: 39%;
     }
 }
 
@@ -17,7 +17,7 @@
     .new_pakit_form .new_pakit_input{
         width: 40%;
     }
-    .new_pakit_form .new_pakit_input[type = submit]{
+    .new_pakit_form .new_pakit_button{
         width: 40%;
     }
 }
@@ -25,7 +25,7 @@
 
 
 @media only screen and (max-width: 980px){
-    .new_pakit_form .new_pakit_input[type = submit]{
+    .new_pakit_form .new_pakit_button{
         width: 30%;
     }
 }
@@ -35,7 +35,7 @@
     .new_pakit_form .new_pakit_input{
         width: 40%;
     }
-    .new_pakit_form .new_pakit_input[type=submit]{
+    .new_pakit_form .new_pakit_button{
         width: 40%;
     }
     #new_pakit_myNavbar .new_pakit_myNavbar_ul .new_pakit_myNavbar_li{
@@ -49,7 +49,7 @@
     .new_pakit_form .new_pakit_input{
         width: 50%;
     }
-    .new_pakit_form .new_pakit_input[type=submit]{
+    .new_pakit_form .new_pakit_button{
         width: 50%;
     }
 }
@@ -60,18 +60,26 @@
     .new_pakit_form .new_pakit_input{
         width: 60%;
     }
-    .new_pakit_form .new_pakit_input[type=submit]{
+    .new_pakit_form .new_pakit_button{
         width: 60%;
     }
 }
 
+/*  ===============================     CHANGES DONE BY AAKASH FOR MOBILE VIEW      ==========================      */
 
+@media only screen and (max-width: 450px){
+    .new_pakit_options .new_pakit_options_2{
+        padding-left: 15px;
+    }
+}
+
+/*  ==============================      CHANGES DONE BY AAKASHH TILL HERE       ===============================      */
 
 @media only screen and (max-width: 420px){
     .new_pakit_form .new_pakit_input{
         width: 70%;
     }
-    .new_pakit_form .new_pakit_input[type=submit]{
+    .new_pakit_form .new_pakit_button{
         margin-right: 50px;
         width: 70%;
     }
@@ -85,7 +93,7 @@
     .new_pakit_form .new_pakit_input{
         margin-left: 10px;
     }
-    .new_pakit_form new_pakit_label{
+    .new_pakit_form .new_pakit_label{
         margin-left: 70px;
     }
 }
@@ -107,8 +115,36 @@
     .new_pakit_form .new_pakit_input{
         width: 80%;
     }
-    .new_pakit_form .new_pakit_input[type = submit]{
+    .new_pakit_form .new_pakit_button{
         width: 80%;
         margin-left: 25px;
     }
 }
+
+
+/*    ==================================     CHANGES DONE BY AAKASH FOR MOBILE VIEW        ============================ */
+        
+      /* ====================== NAME OF CLUB BAGGAGE, DELIVER PAKIT, SEND PAKIT, REQUEST PAKIT ARE CHANGES TO
+OPT1,OPT2,ETC.ALSO OPT1, OPT2, OPT3, OPT4 HAVE  SEPARATE RESPONSIIVE CSS (SO NEED HELPFROM BHAIYA) =================   */  
+
+        /*@media only screen and (max-width: 426px){
+            .new_pakit_club_baggage , .new_pakit_send_pakit , .new_pakit_request_pakit{
+                display: none;
+            }
+            #new_pakit_deliver_pakit_extension{
+                display: none;
+            }
+        }*/
+      /*        ================================  CHANGES DONE BY AAKASH TILL HERE    =================================   */
+
+
+        @media only screen and (max-width: 400px){
+            .new_pakit_form .new_pakit_label{
+                font-size: 14px;   
+            }
+        }
+
+
+        /*  ========   INSTEAD OF ALL input[type = submit], button WAS WRITTEN BECASUE IN HTML IT IS BUTTON  ========= */
+
+/*    =======================================     CHANGES DONE BY AAKASH TIL HERE       ===============================*/

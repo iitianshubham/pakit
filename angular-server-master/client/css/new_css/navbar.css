@@ -24,9 +24,9 @@
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+/*.dropdown:hover .dropdown-content {*/
+    /*display: block;*/
+/*}*/
 .dropdown-content {
     display: none;
     position: absolute;
@@ -43,6 +43,7 @@
     text-decoration: none;
     display: block;
     text-align: left;
+    cursor: pointer;
 }
 
 .dropdown-content a:hover {

@@ -1,11 +1,28 @@
-<div class = "container">            
+<div class = "container">     
+
+
+<!--    *****************************   CHANGES DONE BY AAKASH FOR SIGNIN SIGNUP TABS   *****************************   -->
+
+<!--    *****************************   SIGNUP SIGNIN TABS STARTS HERE      ****************************    -->
+    <div class = "login_signup_signin_tabs">    
+        <div class = "row">
+            <span class = "col-md-6 col-sm-6 col-xs-6 login_signin_tab">    <a ui-sref="login"   class = "login_signup_signin_tabs_a">SIGNIN</a>    </span>
+            <span class = "col-md-6 col-sm-6 col-xs-6 login_signup_tab">    <a ui-sref="signup" class = "login_signup_signin_tabs_a">SIGNUP</a>  </span>
+        </div>
+        <hr>
+    </div>
+<!--    *****************************   SIGNUP SIGNIN TABS ENDS HERE        ************************    -->
+
+<!--    *****************************   CHANGES DONE BY AAKASH TILL HERE   *****************************   -->
+
+
     <!--    ******************************* PAKIT LOGO ***********************    -->
         <div class = "login_pakit_logo"><img src = "image/logo.png" class = "login_pakit"></div>
 <!--    ******************************* PAKIT LOGO ENDS ***********************    -->
 
 <!--    ******************************* FACEBOOK LOGIN BOX STARTS HERE ***********************    -->
     <div class = "row fb_login_row">
-        <div class = "col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-offset-3 col-xs-6 login_fb_login" ng-click="fbLogin()">
+        <div class = "col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10 login_fb_login" ng-click="fbLogin()">
              <a href = "#">
                 <p>                          
                     <span class = "login_fb_logo"><img src = "image/fb_blue.png"></span>
@@ -20,7 +37,7 @@
     
 <!--    ******************************* FORM STARTS HERE ***********************    -->
     <div class = "row">
-        <div class = "col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 signup_inputs">
+        <div class = "col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10 signup_inputs">
             <form class = "signup_form" ng-submit="submit()" novalidate>
                 <div ng-show="error">{{errorMessage}}</div>
                 <div class = "signup_name_input">
@@ -38,9 +55,10 @@
                 <p class = "signup_login_submit">
                     <button class = "signup_signup_button" ng-disabled="form1.$invalid">Sign Up</button>
                 </p>
-                <p class = "signup_if_registered">Already registered? <a ui-sref="login" class = "signup_signin_link">Log in</a></p>
+                <!-- <p class = "signup_if_registered">Already registered? <a ui-sref="login" class = "signup_signin_link">Log in</a></p> -->
             </form>   
         </div>
     </div>
+    <p class = "signup_if_registered">Already registered? <a ui-sref="login" class = "signup_signin_link">Log in</a></p>
 <!--    ******************************* FORM ENDS HERE ***********************    -->     
 </div>
