@@ -88,7 +88,7 @@ body{
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 .detailsform_changepic{
     color: deepskyblue;
-    font-size: 13;
+    font-size: 14px;
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 .detailsform_profilepic{
@@ -130,6 +130,8 @@ body{
 
 .detailsform_detailitem input{
     float: right;
+    border: none;
+    box-shadow: none;
     border-bottom: 2px solid lightgray;
     border-top-color: transparent;
     border-right-color: transparent;
@@ -137,8 +139,13 @@ body{
     width: 55%;
     margin-right: 2%;
     background-color: transparent;
-
 }
+
+.detailsform_detailitem input:focus{
+        border-top: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+    }
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 .detailsform_detailitem{
     margin-bottom: 4%;
@@ -150,7 +157,8 @@ body{
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 .detailsform_changessave p{
-    /*margin-top: 20%;*/
+    margin-top: 0;
+    margin-bottom: 0;
     color: white;
     padding: 5px 0;
 }
@@ -170,7 +178,8 @@ body{
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 .detailsform_discard p{
     color: gray;
-    /*margin-top: 17%;*/
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 5px 0;
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/

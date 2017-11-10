@@ -63,9 +63,6 @@
     .user_details_dots{
         margin-top: 5px;
     }
-    .user_details_card_invite:hover{
-        padding: 3.5px 10px;
-    }
 }
 
 
@@ -80,10 +77,7 @@
     .user_details_card_baggage_details{
         padding-top: 5px;
         margin-left: 25px;
-    }
-    .user_details_card_invite:hover{
-        padding: 2px 2px;
-    }   
+    } 
     .user_details_card_symbols{
         margin-left: 0px;
     }

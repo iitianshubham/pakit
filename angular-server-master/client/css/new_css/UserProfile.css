@@ -239,7 +239,7 @@
     .userprofile_uppercard{margin-left: 5%; margin-top: 30%;}
     .userprofile_centralcard{margin-left: 8%; margin-top: 7%;}
     .userprofile_upperdetails{margin-left: 0%;}
-    .userprofile_detailtitle{width: 30%;}
+    .userprofile_detailtitle{width: 43%;}
     .userprofile_float-left{float: left;}
     .userprofile_name{font-size: 16;}
     
@@ -281,11 +281,17 @@
     margin-top: -9%;
 }
 .userprofile_editprofile{
-    float: right;    
+    float: right;  
+    width: auto;
+
+}
+.userprofile_editprofile p img{
+    width: 14px;
+    height: 14px;
 }
 .userprofile_editprofile p a{
     color: blue;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
 .userprofile_editprofile p a{

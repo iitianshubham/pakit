@@ -175,6 +175,9 @@ hr{
     margin-left: 100px;
     margin-top: 0px; 
 }
+.new_pakit_form .date_label {
+    top: 10px;
+}
 .new_pakit_form img{
     vertical-align: middle;
     width: 20px;
