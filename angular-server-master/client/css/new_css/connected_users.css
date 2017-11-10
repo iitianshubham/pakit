@@ -382,6 +382,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     font-weight: 600;
     margin-right: 40px;
     font-size: 15px;
+    padding: 5px 20px
 }
 .connected_users_card_chat:hover{
     background-color: #e2e2e2;

@@ -364,6 +364,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 .user_details_card_invite{
 	color: #1fd2f2;
 	float: right;
+	padding: 5px 15px;
 }
 .user_details_card_invite:hover{
     background-color: #e2e2e2;
