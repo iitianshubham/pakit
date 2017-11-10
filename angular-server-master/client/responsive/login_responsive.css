@@ -1,0 +1,87 @@
+
+/*      ==================     CHANGES DONE BY AAKASH FOR MOBILE VIEW OF LOGIN/SIGNUP PAGE     =================*/
+@media only screen and (max-width: 768px){
+    .login_fb_login {
+        width: 50%;
+        margin-left: 170px;
+    } 
+}
+
+@media only screen and (max-width: 690px){
+    .login_fb_login {
+        margin-left: 150px;
+    } 
+}
+
+@media only screen and (max-width: 610px){
+    .login_fb_login {
+        width: 60%;
+        margin-left: 100px;
+    } 
+}
+
+@media only screen and (max-width: 504px){
+    .login_fb_login {
+        width: 65%;
+        margin-left: 80px;
+    } 
+}
+
+@media only screen and (max-width: 470px){
+    .login_fb_login {
+        width: 70%;
+        margin-left: 60px;
+    } 
+}
+
+@media only screen and (max-width: 440px){
+    .login_fb_login {
+        width: 80%;
+        margin-left: 40px;
+    } 
+}
+
+@media only screen and (max-width: 425px){
+    .login_navigation{
+        display: block;
+    } 
+    .login_signup_signin_tabs{
+        display: block;
+    }
+    .login_if_not_registered , .signup_if_registered {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 385px){
+    .login_fb_login {
+        width: 85%;
+        margin-left: 25px;
+    } 
+}
+
+@media only screen and (max-width: 371px){
+    .login_fb_login .login_fb_logo {
+    	padding: 0 5px;
+    }
+    .login_fb_login .login_fb_logo img{
+    	padding: 3px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .login_login_text {
+        padding-left: 5px;
+    }
+    .login_fb_login .login_fb_logo {
+        padding-right: 0px;
+    } 
+}
+
+@media only screen and (max-width: 325px){
+    .login_fb_login {
+        width: 90%;
+    } 
+}
+
+/*  ==============================      CHANGES DONE BY AAKASH TILL HERE        ==============================  */

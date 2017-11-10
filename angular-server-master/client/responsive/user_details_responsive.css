@@ -44,7 +44,7 @@
 		margin-top: 10px;
 	}
 	.user_details_connected , .user_details_all_users{
-		padding: 0 20px;
+		padding: 0 15px;
 	}
 }
 
@@ -91,3 +91,86 @@
 	padding: 0 4px;
     }
 }
+
+
+
+/*	==================================		CHANGES DONE BY AAKASH FOR MOBILE VIEW		===========================	*/
+	@media only screen and (max-width: 1000px){
+    	.user_details_baggage_weight{
+       		 font-size: 12px;
+    	}
+	}
+
+
+	@media only screen and (max-width: 425px){
+	    .user_details_main_row{
+	        display: none;
+	    }
+	    .user_details_exterior_box{
+	        margin-top: 120px;
+	    }
+	    .user_details_interior_upper_box{
+	        position: fixed;
+	        top: 50px;
+	        left: 0;
+	        z-index: 100;
+	        height: 72px;
+	    }
+	    .user_details_interior_upper_box .user_details_flight_logo , .user_details_dots , .user_details_collapse_link{
+	        display: none;
+	    }
+	    .user_details_baggage_weight{
+	        float: left;
+	        margin-left: 10px;
+	        padding-right: 0;
+	        font-size: 12px;
+	    }
+	    .user_details_date{
+	        padding-left: 10px;
+	    }
+	    .user_details_from_to_profile{
+	        float: right;
+	        margin-right: 20px;
+	        font-size: 10px;
+	        font-family: century gothic , sans-serif;
+	    }
+	    .user_details_from_to_profile .user_details_flight_direction img{
+	        width: 80px;
+	    }
+	    .user_details_connected_and_all_users{
+	        visibility: hidden;
+	    }
+	    .user_details_connected_and_all_users_2{
+	        display: inline-block;
+	    }
+	    .user_details_connected , .user_details_all_users{
+	        clear: both;
+	        padding: 3px 35px;
+	    }
+	    .user_details_connected_and_all_users_2 a:before{
+	        bottom: -5px;   
+	    }
+	}
+
+	@media only screen and (max-width: 409px){
+	    .user_details_connected_and_all_users{
+	        display: none;
+	    }
+	}
+
+	@media only screen and (max-width: 350px){
+	    .user_details_connected_and_all_users{
+	        display: none;
+	    }
+	    .user_details_from_to_profile .user_details_city{
+	        font-size: 12px;
+	    }
+	    .user_details_from_to_profile{
+	        margin-left: 0;
+	    }
+	    .user_details_from_to_profile .user_details_flight_direction img{
+	        width: 60px;
+	    }
+	}
+
+/*	==================================		CHANGES DONE BY AAKASH TILL HERE	===================================*/
