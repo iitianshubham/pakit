@@ -9,14 +9,25 @@
             </div>
            <div class = "connected_users_dropdown_and_collapse">
             <button data-target = "#collapse_card" data-toggle = "collapse" class = "connected_users_collapse_link">COLLAPSE</button>
-             <div class="connected_users_dropdown connected_users_dots">
+             <!-- <div class="connected_users_dropdown connected_users_dots">
                 <img src = "image/3 dots.svg" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
                 <ul class="dropdown-menu dropdown-menu-right">
                     <li><a href="#">********</a></li>
                     <li><a href="#">########</a></li>
                     <li><a href="#">@@@@@@@@</a></li>
                 </ul>
-            </div>
+            </div> -->
+            <span class="dropdown three_dots">
+                <span class="dropbtn collapse_near_dots_icon">
+                    <img class="collapse_near_dots" src="image/3 dots.svg"/>
+                </span>
+                <div class="dropdown-content dropdown-menu-right">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+            </span>
+
             </div>
         </div>
           <div class = "connected_users_from_to_profile_and_submain_and_baggage_weight">
@@ -26,8 +37,8 @@
               <div class = "connected_users_to">{{currCard.to}}</div>
           </div>      
          <div class = "connected_users_connected_and_all_users">
-            <div class = "connected_users_connected" ng-class="{ active: isActive('navbar.card_navbar.connected_users') }"><a href = "#" class = "connected_users_connected_and_all_users_a" ng-click="changeViews('navbar.card_navbar.connected_users')">Connected</a></div>
-            <div class = "connected_users_all_users" ng-class="{ active: isActive('navbar.card_navbar.allusers_grid') || isActive('navbar.card_navbar.allusers_details')}"><a href = "#"  class = "connected_users_connected_and_all_users_a" ng-click="changeViews('navbar.card_navbar.allusers_details')">All Users</a></div>
+            <div class = "connected_users_connected" ng-class="{ active: isActive('navbar.card_navbar.connected_users') }"><a href = "#1" class = "connected_users_connected_and_all_users_a" ng-click="changeViews('navbar.card_navbar.connected_users')">Connected</a></div>
+            <div class = "connected_users_all_users" ng-class="{ active: isActive('navbar.card_navbar.allusers_grid') || isActive('navbar.card_navbar.allusers_details')}"><a href = "#2"  class = "connected_users_connected_and_all_users_a" ng-click="changeViews('navbar.card_navbar.allusers_details')">All Users</a></div>
          </div> 
          <span class = "connected_users_baggage_weight">
             <span> <img src = "image/suitcase-04.svg" class = "connected_users_baggage"></span>
