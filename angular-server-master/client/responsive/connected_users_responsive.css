@@ -167,13 +167,13 @@
         width: 80px;
     }
     .connected_users_connected_and_all_users{
-        visibility: hidden;
+        display: none;
     }
     .connected_users_connected_and_all_users_2{
         display: inline-block;
         width: 100%;
         margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 25px;
     }
     .connected_users_connected , .connected_users_all_users{
         clear: both;
@@ -208,3 +208,4 @@
     }
 }
 /*      ==============================================      CHANGES DONE BY AAKASH TILL HERE     =======================================================       */
+

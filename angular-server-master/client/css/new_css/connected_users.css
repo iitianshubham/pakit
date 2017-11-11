@@ -181,6 +181,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 }
 .connected_users_connected_and_all_users{
 	display: inline-block;
+    margin-top: 20px;
 }
 .connected_users_connected_and_all_users_a{
 	text-decoration: none;
@@ -383,14 +384,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	color: #66CB01;
 	float: right;
     font-weight: 600;
-    margin-right: 40px;
     font-size: 15px;
-/*  =========   CHANGES DONE BY AAKASH FOR BACKGROUND APPEARANCE OF CHAT    ========   */
-    padding:5px 20px ;    
+    padding: 5px 20px ;    
 }
 .connected_users_card_chat:hover{
     background-color: #e2e2e2;
-    padding: 3.5px 20px;
     transition: all 0.3s ease-in-out;
     border-radius: 4px;
 }
