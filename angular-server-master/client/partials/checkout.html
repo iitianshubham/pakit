@@ -36,7 +36,7 @@
                     <p class = "pay_image"><img src = "image/choley_kulche.jpg"></p>
                     <p class = "pay_name">Choley Kulche <span class = "pay_edit"><img src = "image/workplace.svg"></span></p>
                     <p class = "row pay_pakit_information">
-                        It should not be squeezed.Please handle thses with and dont eat it while carrying it to the destination.Samjhe?    
+                        It should not be squeezed.  
                     </p>
                 </div>
 <!--   ================================================  MIDDLE CARD ENDS   ==================================================     -->                                     
@@ -44,13 +44,13 @@
                 <div class = "col-md-6 pay_third_card">
                     <p class = "pay_charges"> Charges </p>
                     <div class = "pay_bill">
-                        <p class = "pay_pakit_cost"><span class = "pay_type_of_charges">Pakit Cost: </span><span class = "pay_money"> Rs. 460/-</span></p>
-                        <p class = "pay_sub_charges"><span class = "pay_type_of_charges">Sub Charges: </span><span class = "pay_money"> Rs. 100/-</span></p>
+                        <p class = "pay_pakit_cost"><span class = "pay_type_of_charges">Pakit Cost: </span><span class = "pay_money"> Rs. {{ pakit_cost }}/-</span></p>
+                        <p class = "pay_sub_charges"><span class = "pay_type_of_charges">Sub Charges: </span><span class = "pay_money"> Rs. {{ sub_charges }}/-</span></p>
                     </div>
                         <div class = "pay_statement_with_checkbox">
                             <form>
-                                <input type = "checkbox" class = "pay_statement_with_checkbox_input"/>
-                                <span class = "pay_statement">Add Rs. 6 for travel Insurance.</span>
+                                <input type = "checkbox" class = "pay_statement_with_checkbox_input" ng-model='insurance_checked' ng-click="recalculate_pricing()"/>
+                                <span class = "pay_statement">Add Rs. {{ insurance_charges }} for travel Insurance.</span>
                             </form>
                         </div>
                 </div>
@@ -61,8 +61,8 @@
 <!--   ================================================  TERMS AND CONDITIONS STARTS      ============================================= -->                         
     <div class = "row pay_terms_and_conditions">
         <form>
-            <input type = "checkbox" value = "" class = "pay_terms_and_conditions_input"/>
-            <span class = "pay_terms_statement">I agree to the Terms and Conditions</span>
+            <input type = "checkbox" value = "" class = "pay_terms_and_conditions_input" ng-model='terms_checked'/>
+            <span class = "pay_terms_statement" >I agree to the Terms and Conditions</span>
         </form>
     </div>
 <!--   ================================================  TERMS AND CONDITIONS ENDS  ==================================================     -->                         
@@ -91,8 +91,8 @@
 <!--   ================================================  PROCEED TO PA BUTTON STARTS      ==================================================     -->                             
     <div class = "col-md-6 pay_proceed_to_pay">
         <div class = "pay_total_amount_and_pay_button">
-            <p class = "pay_total_amount_and_net_money"><span class = "pay_total_amount">Total Amount: </span><span class = "pay_net_money">Rs. 566/-</span></p>
-            <p class = "pay_Pay_button"><button class = "pay_Pay_button_button">PROCEED TO PAY</button></p>
+            <p class = "pay_total_amount_and_net_money"><span class = "pay_total_amount">Total Amount: </span><span class = "pay_net_money">Rs. {{ total_payable }}/-</span></p>
+            <p class = "pay_Pay_button"><button class = "pay_Pay_button_button" ng-disabled="!terms_checked" ng-click="make_payment()">PROCEED TO PAY</button></p>
         </div>
     </div>
 <!--   ================================================  PROCEED TO PAY BUTTON      ================================================     -->                             
