@@ -499,4 +499,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     box-shadow:  2px 2px 5px #CBCBCB;
     opacity: 0.9;
 }
+button[disabled]{
+    background-color: lightgray !important;
+}
 /*  ======================================  PROCEED TO PAY ENDS   ====================================    */
