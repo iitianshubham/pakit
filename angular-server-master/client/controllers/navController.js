@@ -48,6 +48,7 @@ app.controller('navController', function($state,$scope,APIService,UserService, $
   var entries="empty";
 
   $scope.showPostings=function(){
+    $state.go('navbar.my_posting',entries);
     if(entries=="empty"){
       APIService.call_get('user/trips/')
       .then(function(response) {
@@ -60,6 +61,7 @@ app.controller('navController', function($state,$scope,APIService,UserService, $
        }
        else{
                   //error handling
+
           }
         });
     }

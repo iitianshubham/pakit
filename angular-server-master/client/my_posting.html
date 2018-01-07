@@ -1,0 +1,198 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/new_css/user_details.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+        
+        <!-- Custom StyleSheet -->
+        <link href="UserList.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <div class = "col-md-4">
+                <div class = "user_details_card1">     
+                <div stlye:>PART 1</div>            
+            <!-- <div class = "user_details_card1" ng-repeat="user in usersToShow"> -->
+                <div class = "user_details_card_card">
+                    <div class = "user_details_card_image">
+                        <!-- <img src = {{user.image_url}} alt = "customer image"> -->
+                        <img src = image/photo.jpg alt = "customer image">
+                    </div>
+                <a href="" ng-click="showUserDetail(user)">
+                    <div class = "user_details_card_name_and_notificatons">
+                        <div class = "user_details_card_name">
+                            {{user.name}}Kuldeep Parewa
+                        </div>
+                    </div>
+                    <div class = "user_details_card_information">
+                        <div class = "user_details_card_flight_details">
+                            <div class = "user_details_card_flight_logo">
+                                <img src = "image/flight.svg" alt = "flight logo">
+                            </div>
+                            <div class = "user_details_card_date">
+                               {{user.date | date : "dd.MM.yyyy"}} May 23,2017
+                            </div>
+                        </div>
+                        <div class  = "user_details_card_baggage_details">
+                            <div class = "user_details_card_suitcase">
+                                <img src = "image/suitcase-04.svg" alt = "checkin baggage">
+                            </div>
+                            <div class = "user_details_card_weight">
+                               {{user.weight}} 3 kg 
+                            </div>
+                            carrying{{user.type}}
+                        </div>
+                    </div>  
+                    <div class = "user_details_card_symbols_and_invite">
+                        <div class = "user_details_card_symbols">
+                            <div class = "user_details_card_location">
+                                <img src = "image/location.svg">
+                            </div>
+                            <div class = "user_details_card_facebook">
+                                <img src = "image/facebook.svg">
+                            </div>
+                            <div class = "user_details_card_education">
+                                <img src = "image/education.svg">
+                            </div>
+                            <div class = "user_details_card_workplace">
+                                <img src = "image/workplace.svg">
+                            </div>
+                            <div class = "user_details_card_rating">
+                                <img src = "image/rating.svg">
+                            </div>
+                        </div>
+                </a>
+                        <div class = "user_details_card_invite" ng-click="inviteUser(user)">
+                            <img src = "image/invite.svg" id = "invite"> INVITE
+                        </div>
+                    </div>
+                </div>
+           </div>
+            </div>
+          <div class = "col-md-4">
+                <div class = "user_details_card1">     
+                <div>PART 2</div>            
+            <!-- <div class = "user_details_card1" ng-repeat="user in usersToShow"> -->
+                <div class = "user_details_card_card">
+                    <div class = "user_details_card_image">
+                        <!-- <img src = {{user.image_url}} alt = "customer image"> -->
+                        <img src = image/photo.jpg alt = "customer image">
+                    </div>
+                <a href="" ng-click="showUserDetail(user)">
+                    <div class = "user_details_card_name_and_notificatons">
+                        <div class = "user_details_card_name">
+                            {{user.name}}Kuldeep Parewa
+                        </div>
+                    </div>
+                    <div class = "user_details_card_information">
+                        <div class = "user_details_card_flight_details">
+                            <div class = "user_details_card_flight_logo">
+                                <img src = "image/flight.svg" alt = "flight logo">
+                            </div>
+                            <div class = "user_details_card_date">
+                               {{user.date | date : "dd.MM.yyyy"}} May 23,2017
+                            </div>
+                        </div>
+                        <div class  = "user_details_card_baggage_details">
+                            <div class = "user_details_card_suitcase">
+                                <img src = "image/suitcase-04.svg" alt = "checkin baggage">
+                            </div>
+                            <div class = "user_details_card_weight">
+                               {{user.weight}} 3 kg 
+                            </div>
+                            carrying{{user.type}}
+                        </div>
+                    </div>  
+                    <div class = "user_details_card_symbols_and_invite">
+                        <div class = "user_details_card_symbols">
+                            <div class = "user_details_card_location">
+                                <img src = "image/location.svg">
+                            </div>
+                            <div class = "user_details_card_facebook">
+                                <img src = "image/facebook.svg">
+                            </div>
+                            <div class = "user_details_card_education">
+                                <img src = "image/education.svg">
+                            </div>
+                            <div class = "user_details_card_workplace">
+                                <img src = "image/workplace.svg">
+                            </div>
+                            <div class = "user_details_card_rating">
+                                <img src = "image/rating.svg">
+                            </div>
+                        </div>
+                </a>
+                        <div class = "user_details_card_invite" ng-click="inviteUser(user)">
+                            <img src = "image/invite.svg" id = "invite"> INVITE
+                        </div>
+                    </div>
+                </div>
+           </div>
+            </div><div class = "col-md-4">
+                <div class = "user_details_card1">     
+                <div>PART 3</div>            
+            <!-- <div class = "user_details_card1" ng-repeat="user in usersToShow"> -->
+                <div class = "user_details_card_card">
+                    <div class = "user_details_card_image">
+                        <!-- <img src = {{user.image_url}} alt = "customer image"> -->
+                        <img src = image/photo.jpg alt = "customer image">
+                    </div>
+                <a href="" ng-click="showUserDetail(user)">
+                    <div class = "user_details_card_name_and_notificatons">
+                        <div class = "user_details_card_name">
+                            {{user.name}}Kuldeep Parewa
+                        </div>
+                    </div>
+                    <div class = "user_details_card_information">
+                        <div class = "user_details_card_flight_details">
+                            <div class = "user_details_card_flight_logo">
+                                <img src = "image/flight.svg" alt = "flight logo">
+                            </div>
+                            <div class = "user_details_card_date">
+                               {{user.date | date : "dd.MM.yyyy"}} May 23,2017
+                            </div>
+                        </div>
+                        <div class  = "user_details_card_baggage_details">
+                            <div class = "user_details_card_suitcase">
+                                <img src = "image/suitcase-04.svg" alt = "checkin baggage">
+                            </div>
+                            <div class = "user_details_card_weight">
+                               {{user.weight}} 3 kg 
+                            </div>
+                            carrying{{user.type}}
+                        </div>
+                    </div>  
+                    <div class = "user_details_card_symbols_and_invite">
+                        <div class = "user_details_card_symbols">
+                            <div class = "user_details_card_location">
+                                <img src = "image/location.svg">
+                            </div>
+                            <div class = "user_details_card_facebook">
+                                <img src = "image/facebook.svg">
+                            </div>
+                            <div class = "user_details_card_education">
+                                <img src = "image/education.svg">
+                            </div>
+                            <div class = "user_details_card_workplace">
+                                <img src = "image/workplace.svg">
+                            </div>
+                            <div class = "user_details_card_rating">
+                                <img src = "image/rating.svg">
+                            </div>
+                        </div>
+                </a>
+                        <div class = "user_details_card_invite" ng-click="inviteUser(user)">
+                            <img src = "image/invite.svg" id = "invite"> INVITE
+                        </div>
+                    </div>
+                </div>
+           </div>
+            </div>   
+        </div>
+    </body>
+</html>

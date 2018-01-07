@@ -1,49 +1,4 @@
-<!-- <div class="row" id="detailsform_navbar">
-    <div class="col-md-3 detailsform_navcol col-md-offset-9">
-        <div class="row">
-            <div class="col-md-3 col-md-offset-3 dropdown col-xs-1 col-xs-offset-9">
-                <img class="img-responsive dropdown-toggle" data-toggle="dropdown" src="image/request.svg"/>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a href="#" class="details_form_a">Action</a></li>
-                    <li><a href="#" class="details_form_a">Another action</a></li>
-                </ul>
-            </div>
-            
-            <div class="col-md-3 dropdown col-xs-1">
-                <img class="img-responsive dropdown-toggle" data-toggle="dropdown" src="image/notification.svg"/>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a href="#" class="details_form_a">Action</a></li>
-                    <li><a href="#" class="details_form_a">Another action</a></li>
-                </ul>
-            </div>
-            
-            <div class="col-md-3 dropdown col-xs-1">
-                <img class="img-responsive dropdown-toggle" data-toggle="dropdown" src="image/account.svg"/>
-                <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a href="#" class="details_form_a">Action</a></li>
-                    <li><a href="#" class="details_form_a">Another action</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row" id="detailsform_tabs">
-    <div class="col-md-12">
-        <div class="row detailsform_tabrow">
-            <div class="col-md-2 col-xs-6">
-                <div class="row">
-                    <div class="col-lg-11 col-lg-offset-3 col-md-11 col-md-offset-6 col-xs-4 col-xs-offset-6">
-                        <a href="#" class="detailsform_disabledLink">New Pakit</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-               <a href="#" class="detailsform_disabledLink">Current Pakits</a>
-            </div>
-        </div>
-        <div class="detailsform_line"></div>
-    </div>
-</div> -->
+
 <nav class="navbar navbar-default connected_users_navigation">
     <div class="container-fluid navbar_container_fluid">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#connected_users_myNavbar">
@@ -51,6 +6,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
         </button>
+        <div class="logo" style="position:absolute;top:0;left:0;color:white;">
+            <a ui-sref="navbar.home">PAKIT</a>
+        </div>
 
 <!--       ===============================  CHANGES DONE BY AAKASH  ==================================  -->
 
@@ -61,12 +19,12 @@
                     <img class="connected_users_myNavbar_images" src="image/request.svg"/>
                 </span>
                 <div class="dropdown-content dropdown-menu-right" id = "request_id">
-                  <a href="#">My Accounts</a>
-                  <a href="#">Past Trips</a>
-                  <a href="#">Contact Us</a>
-                  <a href="#">FAQs</a>
-                  <a href="#">Terms of Use</a>
-                  <a href="#">Logout</a>
+                  <a ui-sref="navbar.account.account_profile">My Accounts</a>
+                  <a ui-sref="navbar.account.past_trips">Past Trips</a>
+                  <a ui-sref="navbar.account.contact">Contact Us</a>
+                  <a ui-sref="navbar.account.faq">FAQs</a>
+                  <a ui-sref="navbar.account.terms">Terms of Use</a>
+                  <a ui-sref="#">Logout</a>
                 </div>
             </span>
 
@@ -77,12 +35,12 @@
                     <img class="connected_users_myNavbar_images" src="image/notification.svg"/>
                 </span>
                 <div class="dropdown-content dropdown-menu-right"  id = "notification_id">
-                 <a href="#">My Accounts</a>
-                  <a href="#">Past Trips</a>
-                  <a href="#">Contact Us</a>
-                  <a href="#">FAQs</a>
-                  <a href="#">Terms of Use</a>
-                  <a href="#">Logout</a>
+                 <a ui-sref="navbar.account.account_profile">My Accounts</a>
+                  <a ui-sref="navbar.account.past_trips">Past Trips</a>
+                  <a ui-sref="navbar.account.contact">Contact Us</a>
+                  <a ui-sref="navbar.account.faq">FAQs</a>
+                  <a ui-sref="navbar.account.terms">Terms of Use</a>
+                  <a ui-sref="#">Logout</a>
                 </div>
             </span>
     
@@ -93,12 +51,12 @@
                     <img class="connected_users_myNavbar_images" src="image/account.svg"/>
                 </span>
                 <div class="dropdown-content dropdown-menu-right"  id = "account_id">
-                <a href="#">My Accounts</a>
-                  <a href="#">Past Trips</a>
-                  <a href="#">Contact Us</a>
-                  <a href="#">FAQs</a>
-                  <a href="#">Terms of Use</a>
-                  <a href="#">Logout</a>
+                <a ui-sref="navbar.account.account_profile">My Accounts</a>
+                  <a ui-sref="navbar.account.past_trips">Past Trips</a>
+                  <a ui-sref="navbar.account.contact">Contact Us</a>
+                  <a ui-sref="navbar.account.faq">FAQs</a>
+                  <a ui-sref="navbar.account.terms">Terms of Use</a>
+                  <a ui-sref="#">Logout</a>
                 </div>
             </span>
         </div>
