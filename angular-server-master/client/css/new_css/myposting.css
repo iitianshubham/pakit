@@ -1,17 +1,19 @@
 .myposting_head {
-    text-align: center;
-    font-size: 16px;
-    color: darkslategray;
+    text-align: left;
+    font-size: 20px;
+    color: #6B6B6B;
     font-weight: 600;
-    border: 1px solid;
-    padding: 15px;
+    border: 1px solid #D1D1D1;
+    padding: 30px 15px;
+    background-color: #E8E8E8;
 }
 .myposting_card_section{
-	overflow: hidden;
-	border:1px solid;
+	overflow-y: scroll;
+	border:1px solid #D1D1D1;
+    border-top: none;
 	padding: 10px;
 	height: 500px;
 }
 .myposting_cols{
-
+    margin-top: -50px;
 }
